@@ -1,4 +1,4 @@
-Periodic Table of the elements
+Periodic Table of the Elements
 ===============================
 
 ## This Periodic Table was developed to be:
