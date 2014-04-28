@@ -16,6 +16,7 @@ h6 {font-size: 8pt; }
 p {font-size: 7pt; }
 ul {float: right; font-size: 6pt; line-height: .9; clear: left; list-style: none; }
 td[id] {border: 1pt solid #000; }
+tfoot tr:first-child td {padding: 5pt; }
 
 #solid, #gas, #liquid {border: 1pt solid #000; height: 20pt; width: 20pt; float: right; }
 #gas, #H, #He, #N, #O, #F, #Ne, #Cl, #Ar, #Kr, #Xe, #Rn {background: #ddd; }
@@ -359,7 +360,7 @@ td[id] {border: 1pt solid #000; }
 <h4>43</h4>
 <h5>Tc</h5>
 <p>Technetium
-<h6>96.9062*</h6>
+<h6>(96.9062)</h6>
 
 <td id="Ru">
 <ul><li>2<li>8<li>18<li>15<li>1</ul>
@@ -454,12 +455,7 @@ td[id] {border: 1pt solid #000; }
 <p>Barium
 <h6>137.33</h6>
 
-<td id="Lu">
-<ul><li>2<li>8<li>18<li>32<li>9<li>2</ul>
-<h4>71</h4>
-<h5>Lu</h5>
-<p>Lutetium
-<h6>174.967</h6>
+<th>*
 
 <td id="Hf">
 <ul><li>2<li>8<li>18<li>32<li>10<li>2</ul>
@@ -550,21 +546,21 @@ td[id] {border: 1pt solid #000; }
 <h4>84</h4>
 <h5>Po</h5>
 <p>Polonium
-<h6>208.98244*</h6>
+<h6>(208.98244)</h6>
 
 <td id="At">
 <ul><li>2<li>8<li>18<li>32<li>18<li>7</ul>
 <h4>85</h4>
 <h5>At</h5>
 <p>Astatine
-<h6>209.98704*</h6>
+<h6>(209.98704)</h6>
 
 <td id="Rn">
 <ul><li>2<li>8<li>18<li>32<li>18<li>8</ul>
 <h4>86</h4>
 <h5>Rn</h5>
 <p>Radon
-<h6>222*</h6>
+<h6>(222)</h6>
 
 <tr>
 <th>7
@@ -573,7 +569,7 @@ td[id] {border: 1pt solid #000; }
 <h4>87</h4>
 <h5>Fr</h5>
 <p>Francium
-<h6>223.01976*</h6>
+<h6>(223.01976)</h6>
 
 <td id="Ra">
 <ul><li>2<li>8<li>18<li>32<li>18<li>8<li>2</ul>
@@ -582,20 +578,18 @@ td[id] {border: 1pt solid #000; }
 <p>Radium
 <h6>226.0254</h6>
 
-<td id="Lr">
-<ul><li>2<li>8<li>18<li>32<li>32<li>9<li>2</ul>
-<h4>103</h4>
-<h5>Lr</h5>
-<p>Lawrencium
-<h6>256.099*</h6>
+<th>**
 
 <th colspan="3"><div id="solid"></div><th>- Solids
 <th colspan="2"><div id="gas"></div><th>- Gases
 <th colspan="2"><div id="liquid"></div><th>- Liquids
 <td colspan="5">
 
+<tfoot><tr><td colspan="19">
+
 <tr>
-<th colspan="5">Lanthanide Series - 6
+<th colspan="2">
+<th>*
 <td id="La">
 <ul><li>2<li>8<li>18<li>18<li>9<li>2</ul>
 <h4>57</h4>
@@ -629,7 +623,7 @@ td[id] {border: 1pt solid #000; }
 <h4>61</h4>
 <h5>Pm</h5>
 <p>Promethium
-<h6>144.91279*</h6>
+<h6>(144.91279)</h6>
 
 <td id="Sm">
 <ul><li>2<li>8<li>18<li>24<li>8<li>2</ul>
@@ -694,14 +688,25 @@ td[id] {border: 1pt solid #000; }
 <p>Ytterbium
 <h6>173.04</h6>
 
+<td id="Lu">
+<ul><li>2<li>8<li>18<li>32<li>9<li>2</ul>
+<h4>71</h4>
+<h5>Lu</h5>
+<p>Lutetium
+<h6>174.967</h6>
+
+<td>
+
 <tr>
-<th colspan="5">Actinide Series - 7
+<th colspan="2">
+<th>**
+
 <td id="Ac">
 <ul><li>2<li>8<li>18<li>32<li>18<li>9<li>2</ul>
 <h4>89</h4>
 <h5>Ac</h5>
 <p>Actinium
-<h6>227.02779*</h6>
+<h6>(227.02779)</h6>
 
 <td id="Th">
 <ul><li>2<li>8<li>18<li>32<li>18<li>10<li>2</ul>
@@ -715,7 +720,7 @@ td[id] {border: 1pt solid #000; }
 <h4>91</h4>
 <h5>Pa</h5>
 <p>Protactinium
-<h6>231.0359*</h6>
+<h6>(231.0359)</h6>
 
 <td id="U">
 <ul><li>2<li>8<li>18<li>32<li>21<li>9<li>2</ul>
@@ -736,62 +741,71 @@ td[id] {border: 1pt solid #000; }
 <h4>94</h4>
 <h5>Pu</h5>
 <p>Plutonium
-<h6>244.06424*</h6>
+<h6>(244.06424)</h6>
 
 <td id="Am">
 <ul><li>2<li>8<li>18<li>32<li>25<li>8<li>2</ul>
 <h4>95</h4>
 <h5>Am</h5>
 <p>Americium
-<h6>243.06139*</h6>
+<h6>(243.06139)</h6>
 
 <td id="Cm">
 <ul><li>2<li>8<li>18<li>32<li>25<li>9<li>2</ul>
 <h4>96</h4>
 <h5>Cm</h5>
 <p>Curium
-<h6>247.07038*</h6>
+<h6>(247.07038)</h6>
 
 <td id="Bk">
 <ul><li>2<li>8<li>18<li>32<li>26<li>9<li>2</ul>
 <h4>97</h4>
 <h5>Bk</h5>
 <p>Berkelium
-<h6>247.07032*</h6>
+<h6>(247.07032)</h6>
 
 <td id="Cf">
 <ul><li>2<li>8<li>18<li>32<li>28<li>8<li>2</ul>
 <h4>98</h4>
 <h5>Cf</h5>
 <p>Californium
-<h6>251.07961*</h6>
+<h6>(251.07961)</h6>
 
 <td id="Es">
 <ul><li>2<li>8<li>18<li>32<li>29<li>8<li>2</ul>
 <h4>99</h4>
 <h5>Es</h5>
 <p>Einsteinium
-<h6>254.08805*</h6>
+<h6>(254.08805)</h6>
 
 <td id="Fm">
 <ul><li>2<li>8<li>18<li>32<li>30<li>8<li>2</ul>
 <h4>100</h4>
 <h5>Fm</h5>
 <p>Fermium
-<h6>257.09515*</h6>
+<h6>(257.09515)</h6>
 
 <td id="Md">
 <ul><li>2<li>8<li>18<li>32<li>31<li>8<li>2</ul>
 <h4>101</h4>
 <h5>Md</h5>
 <p>Mendelevium
-<h6>258*</h6>
+<h6>(258)</h6>
 
 <td id="No">
 <ul><li>2<li>8<li>18<li>32<li>32<li>8<li>2</ul>
 <h4>102</h4>
 <h5>No</h5>
 <p>Nobelium
-<h6>255.093*</h6>
+<h6>(255.093)</h6>
+
+<td id="Lr">
+<ul><li>2<li>8<li>18<li>32<li>32<li>9<li>2</ul>
+<h4>103</h4>
+<h5>Lr</h5>
+<p>Lawrencium
+<h6>(256.099)</h6>
+
+<td>
 
 </table>
